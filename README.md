@@ -1,80 +1,82 @@
-## Каркас
+# Набор Handlebars-шаблонов для новой версии drive.ru
 
-# carcass
+## Основные
+
+### carcass
 Каркас сайта (корневой тег HTML + общие контейнеры).
 
-# head
+### head
 Весь тег head вместе со стилями, скриптами и meta-тегами.
 
 ## Страницы
 
-# pages/basic
+### pages/basic
 Контейнер стандартной страницы раздела.
 
-# pages/main
+### pages/main
 Контейнер главной страницы.
 
-# pages/article
+### pages/article
 Контейнер для статьи.
 
 ## Блоки
 
-# keywords
+### keywords
 Шаблон тега `<meta name="keywords">`.
 
-# description
+### description
 Шаблон тега `<meta name="description">`.
 
-# suggestedReading:
+### suggestedReading:
 Статический блок «Что еще почитать».
 
-# header
+### header
 Шапка сайта.
 
-# logo
+### logo
 Логотип.
 
-# nav
+### nav
 Главное меню.
 
-# additionalNav
+### additionalNav
 Дополнительные пункты меню.
 
-# topControls
+### topControls
 Логин, выход, поиск.
 
-# navMobile
+### navMobile
 Меню для мобильных.
 
-# mobileMenuTrigger
+### mobileMenuTrigger
 «Гамбургер» для мобильного меню и скрытый чекбокс.
 
-# footer:
+### footer
 Футер сайта со всеми скриптами.
 
-# itemLarge:
+### itemLarge
 Большое превью материала.
 
-# itemMid:
+### itemMid
 Среднее превью материала.
 
-# itemCompact
+### itemCompact
 Маленькое превью материала.
 
-# itemPlain
+### itemPlain
 Превью материала без картинки.
 
-# delimiter
+### delimiter
 Разделитель между превью.
 
-# videoThumbnail:
+### videoThumbnail
 Превью видео.
 
-# articleHeader
+### articleHeader
 Шапка статьи.
 
-# poll
+### poll
 Опрос.
 
-# articleFooter
+### articleFooter
 Подвал статьи.
