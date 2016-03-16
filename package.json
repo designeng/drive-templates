@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build",
-    "precommit": "npm run build"
+    "test": "node ./test",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,11 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-handlebars": "^4.0.0",
-    "husky": "^0.11.3"
+    "gulp-wrap": "^0.11.0",
+    "husky": "^0.11.3",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5"
   }
 }
