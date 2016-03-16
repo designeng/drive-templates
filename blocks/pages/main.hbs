@@ -1,6 +1,7 @@
 <div class="i clip clip-top"></div>
 <div id="main">
     <div id="index-top-news" class="top-news-list top-news-list_flipping">
+        {{! /items/top_stories#topNews }}
         {{{topNews}}}
     </div>
 
@@ -8,10 +9,12 @@
         <div class="hgr open-page-i cf container-mobile">
             <div id="index-video">
                 <h3 class="index-video-header">Видео</h3>
+                {{! /items/top_videos }}
                 {{{topVideos}}}
             </div>
 
             <div id="index-news-list" class="news-list">
+                {{! /items/top_stories#mainNews }}
                 {{{mainNews}}}
                 <div class="show-more-link"><a class="index-news-list-more" href="/news/">Посмотреть больше новостей</a></div>
                 {{{adMobile}}}
@@ -20,6 +23,7 @@
             <div id="index-com-news">
                 <h3>Блоги компаний<ins></ins></h3>
                 <ul>
+                    {{! /items/top_blogs }}
                     {{{topBlogs}}}
                 </ul>
             </div>
@@ -30,6 +34,7 @@
     <script>
         drv.idxFix();
     </script>
+    {{! /content/numbers }}
     {{{suggestedReading}}}
     {{{adBottom}}}
 </div>
