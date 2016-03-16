@@ -24,6 +24,6 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     + "\n            </div>\n        </div>\n        "
     + ((stack1 = ((helper = (helper = helpers.sprContainer || (depth0 != null ? depth0.sprContainer : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"sprContainer","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n        "
-    + ((stack1 = ((helper = (helper = helpers.scripts || (depth0 != null ? depth0.scripts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"scripts","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = ((helper = (helper = helpers.bottomScripts || (depth0 != null ? depth0.bottomScripts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"bottomScripts","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n    </body>\n</html>";
 },"useData":true})
