@@ -1,4 +1,4 @@
-require('handlebars').template({"1":function(container,depth0,helpers,partials,data) {
+module.exports = require('handlebars').template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.brandUrl : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");

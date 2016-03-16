@@ -1,4 +1,4 @@
-require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper;
 
   return "<div class=\"page-footer\">\n    <div class=\"spr footer-spacer-mobile\"></div>\n    <span class=\"footer-copyright\">© 2005–"

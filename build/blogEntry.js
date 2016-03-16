@@ -1,4 +1,4 @@
-require('handlebars').template({"1":function(container,depth0,helpers,partials,data) {
+module.exports = require('handlebars').template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "    <li>\n        <a class=\"index-com-news-caption\" href=\"/company/"

@@ -1,4 +1,4 @@
-require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function";
 
   return "<div class=\"i clip clip-top\"></div>\n<div id=\"main\">\n    <div id=\"index-top-news\" class=\"top-news-list top-news-list_flipping\">\n        "

@@ -1,3 +1,3 @@
-require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<div id=\"topnav-misc\" class=\"topnav-misc\" style=\"display: none;\">\n    <span data-action=\"topnav.close\"><i class=\"i arr\"></i></span>\n    <ul>\n        <li><a href=\"/kunst\">Kunst!</a></li>\n        <li><a href=\"/russia\">Наши дороги</a></li>\n        <li><a href=\"/autosport\">Автоспорт</a></li>\n        <li><a href=\"/spy\">Шпионерия</a></li>\n        <li><a href=\"/business\">Автомобизнес</a></li>\n        <li><a href=\"/technic\">Техника</a></li>\n        <li><a href=\"/talks\">Гостиная</a></li>\n        <li><a href=\"/columns\">Авторские колонки</a></li>\n    </ul>\n    <div class=\"i\"></div>\n</div>";
 },"useData":true})
