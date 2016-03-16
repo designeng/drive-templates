@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "gulp build"
+    "postinstall": "./node_modules/drive-templates/node_modules/gulp/bin/gulp.js build"
   },
   "repository": {
     "type": "git",
