@@ -27,7 +27,7 @@
 ### description
 Шаблон тега `<meta name="description">`.
 
-### suggestedReading:
+### suggestedReading
 Статический блок «Что еще почитать».
 
 ### header
