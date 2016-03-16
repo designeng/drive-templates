@@ -10,7 +10,7 @@
 
 ## Страницы
 
-### pages/basic
+### pages/testDrives
 Контейнер стандартной страницы раздела.
 
 ### pages/main
