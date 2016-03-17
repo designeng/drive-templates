@@ -12,11 +12,11 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     + ((stack1 = ((helper = (helper = helpers.additionalNav || (depth0 != null ? depth0.additionalNav : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"additionalNav","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n    <div id=\"container\" class=\"hgr wrapper-mobile\">\n        "
     + ((stack1 = ((helper = (helper = helpers.brandsList || (depth0 != null ? depth0.brandsList : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"brandsList","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n        <script>new drv.Bnav;</script>\n            "
+    + "\n        "
     + ((stack1 = ((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n            "
+    + "\n        "
     + ((stack1 = ((helper = (helper = helpers.footer || (depth0 != null ? depth0.footer : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"footer","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n        </div>\n    </div>\n"
+    + "\n    </div>\n</div>\n"
     + ((stack1 = ((helper = (helper = helpers.sprContainer || (depth0 != null ? depth0.sprContainer : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"sprContainer","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n"
     + ((stack1 = ((helper = (helper = helpers.bottomScripts || (depth0 != null ? depth0.bottomScripts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"bottomScripts","hash":{},"data":data}) : helper))) != null ? stack1 : "");
