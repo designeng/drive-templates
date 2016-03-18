@@ -3,7 +3,7 @@
     <div id="article" class="article cf hreview" itemscope itemtype="http://schema.org/NewsArticle">
         <meta itemprop="headline" content="{{сaption}}"/>
         <meta itemprop="datePublished" content="{{time}}"/>
-        {{#if company}}
+        {{#if company.id}}
             {{> brandedArticleHeader}}
         {{else}}
             {{> articleHeader}}
@@ -15,8 +15,8 @@
         </script>
 		<span class="description">
 			<p class="lead" itemprop="description">
-                {{#if letter}}
-                    <span class="dropcap">{{letter}}</span>
+                {{#if dropcap}}
+                    <span class="dropcap">{{dropcap}}</span>
                 {{/if}}
                 {{#if video}}
                     {{{video}}}
@@ -29,7 +29,6 @@
         {{{articleContent}}}
     </div>
     <script>new drv.Article;</script>
-    {{{poll}}}
     {{#if gallery}}
         <div class="article-gallery">
             <h3>Крупным планом</h3>
