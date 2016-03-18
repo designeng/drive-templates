@@ -11,7 +11,9 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     + alias4(((helper = (helper = helpers.cacheReset || (depth0 != null ? depth0.cacheReset : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"cacheReset","hash":{},"data":data}) : helper)))
     + "\">\n    <link rel=\"stylesheet\" href=\"/css/form.css?"
     + alias4(((helper = (helper = helpers.cacheReset || (depth0 != null ? depth0.cacheReset : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"cacheReset","hash":{},"data":data}) : helper)))
-    + "\">\n    <link rel=\"stylesheet\" href=\"/css/likely.css\"/>\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"ДРАЙВ\" href=\"//www.drive.ru/export/rss.xml\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/mobile/mobile-reset.css?"
+    + "\">\n    <link rel=\"stylesheet\" href=\"/css/likely.css\"/>\n    <link rel=\"stylesheet\" href=\"/css/index.css?"
+    + alias4(((helper = (helper = helpers.cacheReset || (depth0 != null ? depth0.cacheReset : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"cacheReset","hash":{},"data":data}) : helper)))
+    + "\">\n\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"ДРАЙВ\" href=\"//www.drive.ru/export/rss.xml\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/mobile/mobile-reset.css?"
     + alias4(((helper = (helper = helpers.cacheReset || (depth0 != null ? depth0.cacheReset : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"cacheReset","hash":{},"data":data}) : helper)))
     + "\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/mobile/mobile.css?"
     + alias4(((helper = (helper = helpers.cacheReset || (depth0 != null ? depth0.cacheReset : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"cacheReset","hash":{},"data":data}) : helper)))
