@@ -11,8 +11,11 @@
 * pages/testDrives — страница раздела «Наши тест-драйвы»
 * pages/videos — статья раздела «Наши видео»
 * pages/brand — страница бренда
-* pages/article — страница статьи
-⋅* partials/articleHeader
+* pages/article — страница материала (статьи, блога, тест-драйва и т. д.)
+  * partials/articleHeader — шапка (заголовок, картинка, информация об авторе)
+  * partials/brandedArticleHeader — брендированная шапка (например, для поста в блоге компании)
+  * partials/articleMeta — информация об авторе и дата публикации
+  * partials/articleTitle — заголовок
 
 ## Блоки (используются на разных страницах)
 ### Служебные
