@@ -12,7 +12,7 @@
 * pages/videos — статья раздела «Наши видео»
 * pages/brand — страница бренда
 * pages/article — страница статьи
-- partials/articleHeader
+⋅* partials/articleHeader
 
 ## Блоки (используются на разных страницах)
 ### Служебные
