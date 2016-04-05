@@ -1,6 +1,5 @@
 <div id="main">
-    {{! TODO: Move this to partials }}
-    <div class="spr page-top-shadow"></div>
+    {{> backroundSprite spriteClass=page-top-shadow}}
     {{! TODO: AdFox side banner }}
     {{! TODO: Teasers }}
     <h1 class="brand-header">{{brand.name}} в России</h1>
@@ -9,8 +8,7 @@
         {{{carIcons}}}
         <label for="expand-mobile-trigger" class="expand-mobile-trigger-label show-more-link">Показать больше моделей</label>
     </div>
-    {{! TODO: move this to partials }}
-    <div class="spr open-page-top"></div>
+    {{> backroundSprite spriteClass=open-page-top}}
     <div id="brand-op" class="hgr open-page">
         <div class="hgr open-page-i container-mobile cf">
             <div class="i clip clip-top"></div>
@@ -24,8 +22,7 @@
             <div class="i clip clip-bottom"></div>
         </div>
     </div>
-    {{! TODO: Move this to partials }}
-    <div class="spr open-page-bottom"></div>
+    {{> backroundSprite spriteClass=open-page-bottom}}
     {{{dealersList}}}
     {{{blogsList}}}
     <script>

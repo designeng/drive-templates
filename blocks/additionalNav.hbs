@@ -1,5 +1,7 @@
 <div id="topnav-misc" class="topnav-misc" style="display: none;">
-    <span data-action="topnav.close"><i class="i arr"></i></span>
+    <span data-action="topnav.close">
+        {{> sprite spriteClass=arr}}
+    </span>
     <ul>
         <li><a href="/kunst">Kunst!</a></li>
         <li><a href="/russia">Наши дороги</a></li>
@@ -10,5 +12,5 @@
         <li><a href="/talks">Гостиная</a></li>
         <li><a href="/columns">Авторские колонки</a></li>
     </ul>
-    <div class="i"></div>
+    {{> sprite}}
 </div>
