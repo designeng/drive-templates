@@ -9,11 +9,13 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     + ((stack1 = ((helper = (helper = helpers.mainNews || (depth0 != null ? depth0.mainNews : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"mainNews","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n                <div class=\"show-more-link\"><a class=\"index-news-list-more\" href=\"/news/\">Посмотреть больше новостей</a></div>\n                "
     + ((stack1 = ((helper = (helper = helpers.adMobile || (depth0 != null ? depth0.adMobile : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"adMobile","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n            </div>\n\n            <div id=\"index-com-news\">\n                <h3>Блоги компаний<ins></ins></h3>\n                <ul>\n                    "
+    + "\n            </div>\n\n            <div id=\"index-com-news\">\n                <h3>Блоги компаний"
+    + ((stack1 = container.invokePartial(partials.ins,depth0,{"name":"ins","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "</h3>\n                <ul>\n                    "
     + ((stack1 = ((helper = (helper = helpers.topBlogs || (depth0 != null ? depth0.topBlogs : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"topBlogs","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n                </ul>\n            </div>\n        </div>\n    </div>\n    <div class=\"i clip clip-bottom\"></div>\n    <div class=\"spr open-page-bottom\"></div>\n    <script>\n        drv.idxFix();\n    </script>\n    "
     + ((stack1 = ((helper = (helper = helpers.suggestedReading || (depth0 != null ? depth0.suggestedReading : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"suggestedReading","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n    "
     + ((stack1 = ((helper = (helper = helpers.adBottom || (depth0 != null ? depth0.adBottom : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"adBottom","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n</div>";
-},"useData":true})
+},"usePartial":true,"useData":true})

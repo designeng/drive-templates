@@ -1,0 +1,3 @@
+module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<? if (!count($drives)) { ?>\n<span class=\"vgr ncard-big ncard-stub\"><strong>Скоро здесь будет<br>новый тест-драйв</strong></span>\n<? } elseif ($even == 1) { ?>\n<span class=\"vgr ncard-stub\"><strong>Скоро здесь будет<br>новый тест-драйв</strong></span>\n<? } ?>";
+},"useData":true})

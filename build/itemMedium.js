@@ -7,7 +7,11 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     + alias4(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data}) : helper)))
     + "\">\n    <div class=\"news-item-link\">\n        <img class=\"news-item-link__image\" src=\""
     + alias4(((helper = (helper = helpers.imageUrl || (depth0 != null ? depth0.imageUrl : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"imageUrl","hash":{},"data":data}) : helper)))
-    + "\" width=\"230\" height=\"130\">\n    </div>\n    <i class=\"i\"></i>\n    <div class=\"news-item-caption\">\n        <strong class=\"news-item-caption__text\">"
+    + "\" width=\"230\" height=\"130\">\n    </div>\n"
+    + ((stack1 = container.invokePartial(partials.sprite,depth0,{"name":"sprite","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "    <div class=\"news-item-caption\">\n        <strong class=\"news-item-caption__text\">"
     + ((stack1 = ((helper = (helper = helpers.caption || (depth0 != null ? depth0.caption : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"caption","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</strong>\n        <ins></ins>\n    </div>\n</a>";
-},"useData":true})
+    + "</strong>\n"
+    + ((stack1 = container.invokePartial(partials.ins,depth0,{"name":"ins","data":data,"indent":"        ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "    </div>\n</a>";
+},"usePartial":true,"useData":true})
