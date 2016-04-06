@@ -2,7 +2,7 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     var stack1, helper, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : {}, alias4=helpers.helperMissing, alias5="function";
 
   return "<div id=\"main\">\n"
-    + ((stack1 = container.invokePartial(partials.backroundSprite,depth0,{"name":"backroundSprite","hash":{"spriteClass":(depth0 != null ? depth0["page-top-shadow"] : depth0)},"data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(partials.backgroundSprite,depth0,{"name":"backgroundSprite","hash":{"spriteClass":(depth0 != null ? depth0["page-top-shadow"] : depth0)},"data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "    <h1 class=\"brand-header\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.brand : depth0)) != null ? stack1.name : stack1), depth0))
     + " в России</h1>\n    <div id=\"brand-icons-list\">\n        <input type=\"checkbox\" id=\"expand-mobile-trigger\" class=\"expand-mobile-trigger\">\n        "
