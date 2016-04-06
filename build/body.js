@@ -17,6 +17,6 @@ module.exports = require('handlebars').template({"compiler":[7,">= 4.0.0"],"main
     + "\n        "
     + ((stack1 = ((helper = (helper = helpers.footer || (depth0 != null ? depth0.footer : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"footer","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n    </div>\n</div>\n"
-    + ((stack1 = container.invokePartial(partials.backroundSprite,depth0,{"name":"backroundSprite","hash":{"spriteClass":(depth0 != null ? depth0["container-b"] : depth0)},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(partials.backgroundSprite,depth0,{"name":"backgroundSprite","hash":{"spriteClass":(depth0 != null ? depth0["container-b"] : depth0)},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + ((stack1 = ((helper = (helper = helpers.bottomScripts || (depth0 != null ? depth0.bottomScripts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"bottomScripts","hash":{},"data":data}) : helper))) != null ? stack1 : "");
 },"usePartial":true,"useData":true})
